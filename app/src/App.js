@@ -1,5 +1,4 @@
 import React from 'react';
-import { IconContext } from 'react-icons';
 import { FaGithub, FaReact, FaNodeJs, FaDocker } from 'react-icons/fa';
 import logo from './logo.svg';
 import './App.css';
