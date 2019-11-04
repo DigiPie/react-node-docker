@@ -7,11 +7,13 @@ WORKDIR /usr/src/react-node-docker
 # Copy package.json and package-lock.json into WORKDIR
 COPY package*.json ./
 
-# Install node_modules
-RUN npm install
-
 # Copy source code into WORKDIR
 COPY . .
 
+# Build for production
+RUN npm i serve -g
+
 EXPOSE 3000
-CMD ["npm", "start"]
+
+# Start serving application
+CMD ["serve", "-s", "build", "-p", "3000"]
