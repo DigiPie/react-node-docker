@@ -16,9 +16,15 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          {process.env.PUBLIC_URL ? `Running at ${process.env.PUBLIC_URL}` 
-              : 'process.env.PUBLIC_URL is undefined. Set it if you are'
-                  + ' deploying from a sub-directory or sub-domain.'}
+          <code>process.env.PUBLIC_URL=
+          {process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}` : 'undefined'}
+          </code>
+          <br />
+          Set <code>process.env.PUBLIC_URL</code> if you are deploying from a 
+          sub-directory or a sub-domain.
+          <br />
+          You can do so by adding a <code>.env</code> file containing 
+          <code> PUBLIC_URL</code> in the same folder as <code>package.json</code>.
         </p>
         <p>
           <a
@@ -28,6 +34,13 @@ function App() {
             rel='noopener noreferrer'
           >
             Learn React
+          </a>
+          <span> | </span>
+          <a
+            className='App-link'
+            href='https://github.com/DigiPie/react-node-docker'
+          >
+            View source code
           </a>
         </p>
       </header>
