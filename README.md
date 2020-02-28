@@ -5,8 +5,8 @@ A skeleton boiler-plate example for serving a create-react-app using NodeJS in a
 
 ## How to use
 1. Change the directory to the sub-directory '_app_': `cd app`.
-2. Edit and execute: `build.sh`.
-3. Edit and execute: `run.sh`.
+2. Edit and execute: `build.sh` or `sudo build.sh`.
+3. Edit and execute: `run.sh` or `sudo run.sh`.
 
 ## Screenshot
 
