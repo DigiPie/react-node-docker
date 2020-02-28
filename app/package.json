@@ -1,6 +1,6 @@
 {
   "name": "react-node-docker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "contributors": [
     {
       "name": "Evan Tay",
@@ -10,10 +10,12 @@
   ],
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.11.0",
     "react-icons": "^3.8.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
